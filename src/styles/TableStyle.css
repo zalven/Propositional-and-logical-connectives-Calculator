@@ -1,0 +1,58 @@
+.table-container{
+    margin-top: 0px;
+    overflow:scroll; 
+    height:85%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 80%;
+}
+
+.given-formula{
+    color: #0172F1;
+    background-color: rgb(255, 255, 255);
+    height: 100;
+    margin-bottom:10px ;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font: 1.1em  'Nunito Sans';
+    text-align: justify;
+    border: 1px solid#0172F1;
+    border-radius: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+.table-body{
+    stroke: black;
+    align-items: center;
+    text-align: center;
+    /* border: 3px solid#0172F1; */
+    margin: auto;
+    font: 0.8em  'Nunito Sans';
+    margin-bottom: 20px;
+}
+
+.table-body{
+    font-family: 'Nunito Sans', sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+.table-body td, .table-body th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.table-body tr:nth-child(even){background-color: #f2f2f2;}
+  
+.table-body tr:hover {background-color: #ddd;}
+  
+.table-body th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#0172F1;
+    color: white;
+  }

@@ -1,0 +1,162 @@
+  
+*{
+    outline:none !important;
+}
+
+.MainBody{
+    position: absolute;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    grid-row-gap:-50px;
+}
+.information-close:hover{
+    color: rgb(255, 68, 68);
+    cursor: pointer;
+}
+#info-button{
+    width: 40px;
+    height: 40px;
+    padding-top:20px;
+    background-image: url('../assets/inActive_info.png');
+    background-repeat: no-repeat;
+    background-size: 25px auto; /* to specify dimensions explicitly */
+    background-position: center center; 
+
+  
+}
+
+#info-button:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding-top:20px;
+    background-image: url('../assets/active_info.png');
+    background-repeat: no-repeat;
+    background-size: 45px auto; /* to specify dimensions explicitly */
+    background-position: center center; 
+  
+}
+.information-body h4{
+    text-align: right;
+    margin: auto;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+.information-body li{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.information-body{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom:40px ;
+    background-color: #ffffff;
+    width: 40%;
+    text-align: left;
+    -webkit-box-shadow: 0px 0px 41px -18px #000000; 
+    box-shadow: 0px 0px 41px -18px #000000;
+    font: 0.8em  'Nunito Sans';
+    
+}
+.table-body-information {
+
+    border-collapse: collapse;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 41px -18px #000000c2; 
+    box-shadow: 0px 0px 41px -18px #0000005d;
+    
+  }
+  
+.table-body-information td, .table-body-information th {
+    border: 1px solid #ffffff;
+    padding: 8px;
+  }
+  
+.table-body-information tr:nth-child(even){background-color: #74b5ffcb}
+.table-body-information tr:nth-child(odd){background-color: #ffffffcb}
+.table-body-information tr:hover {background-color:  #d1e5fccb}
+.table-body-information th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+.button-operators button{
+    cursor: pointer;
+    font: 1.3em ;
+    margin: 5px;
+    width: 80px;
+    height: 40px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    color: white;
+    background-color: #0172F1;
+    border-radius: 30px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.button-operators button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #0172F1;
+    border: 2px solid  #0172F1;
+} 
+
+.button-operators button:active{
+    width: 75px;
+    height: 35px;
+    border: 1px solid  #0172F1;
+
+}
+
+
+.textbox-operator{
+    font: 1.2em  'Nunito Sans';
+    margin-bottom: 20px;
+    width: 70%;
+    height: 35px;
+    border: 1px solid  #0172F1; 
+    border-radius: 40px;
+    margin: 8px 0;
+    padding: 8px 40px;
+}
+
+
+.button-variables{
+   top: 0;
+}
+.button-variables button{
+    width: 70px;
+    height: 30px;
+    margin: 1px;
+}
+
+.execute-button button{
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    background-color: #ffffff;
+    color: #0172F1;
+    border: 1px solid  #0172F1; 
+
+}
+.execute-button button:active{
+    width: 110px;
+    height: 30px;
+  
+}
+.credits-owner{
+    position: absolute;
+    text-align: left;
+    margin-bottom: 0;
+    bottom: 0;
+    font: 0.7em  'Nunito Sans';
+}
