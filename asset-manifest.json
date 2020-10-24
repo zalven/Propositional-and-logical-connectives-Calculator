@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Propositional-and-logical-connectives-Calculator/static/css/main.0fa32d84.chunk.css",
+    "main.js": "/Propositional-and-logical-connectives-Calculator/static/js/main.75d0befd.chunk.js",
+    "main.js.map": "/Propositional-and-logical-connectives-Calculator/static/js/main.75d0befd.chunk.js.map",
+    "runtime-main.js": "/Propositional-and-logical-connectives-Calculator/static/js/runtime-main.cb9d3f64.js",
+    "runtime-main.js.map": "/Propositional-and-logical-connectives-Calculator/static/js/runtime-main.cb9d3f64.js.map",
+    "static/js/2.648935bf.chunk.js": "/Propositional-and-logical-connectives-Calculator/static/js/2.648935bf.chunk.js",
+    "static/js/2.648935bf.chunk.js.map": "/Propositional-and-logical-connectives-Calculator/static/js/2.648935bf.chunk.js.map",
+    "index.html": "/Propositional-and-logical-connectives-Calculator/index.html",
+    "precache-manifest.c78b7a826710e85a55e0c3b57cf7773a.js": "/Propositional-and-logical-connectives-Calculator/precache-manifest.c78b7a826710e85a55e0c3b57cf7773a.js",
+    "service-worker.js": "/Propositional-and-logical-connectives-Calculator/service-worker.js",
+    "static/css/main.0fa32d84.chunk.css.map": "/Propositional-and-logical-connectives-Calculator/static/css/main.0fa32d84.chunk.css.map",
+    "static/js/2.648935bf.chunk.js.LICENSE.txt": "/Propositional-and-logical-connectives-Calculator/static/js/2.648935bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb9d3f64.js",
+    "static/js/2.648935bf.chunk.js",
+    "static/css/main.0fa32d84.chunk.css",
+    "static/js/main.75d0befd.chunk.js"
+  ]
+}
