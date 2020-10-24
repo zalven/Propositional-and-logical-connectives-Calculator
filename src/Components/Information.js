@@ -12,7 +12,7 @@ export default class Information extends Component{
             <div className = "information-body">
             <ul>
             <h4 onClick = {this.closeComponent.bind(this)} className = {"information-close"}> X</h4>
-                <li>No numbers is allowed only letters (not case sensitive) </li>
+                <li>No numbers is allowed only letters (not case sensitive) and Logical operators </li>
                 <li>
                     <table className = 'table-body-information'>
                         <tr>
@@ -45,7 +45,7 @@ export default class Information extends Component{
                     </table>
                 </li>
                 <li>Input a valid formula or it will compute everything it sees fit </li>
-                <li> Get source Code </li>
+                <li> <a href = "https://github.com/zalven/Propositional-and-logical-connectives-Calculator/tree/master" target="_blank"> Get source Code</a> </li>
             </ul>
         </div>
         );
