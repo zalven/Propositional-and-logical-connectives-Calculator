@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Propositional-and-logical-connectives-Calculator/precache-manifest.c78b7a826710e85a55e0c3b57cf7773a.js"
+  "/Propositional-and-logical-connectives-Calculator/precache-manifest.80789219886aaac8079c24f314c51af1.js"
 );
 
 self.addEventListener('message', (event) => {

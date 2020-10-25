@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16476e85fb2fd1ed507e3a4f3c4db961",
+    "revision": "556c0276a552890118a9a079b8313ea4",
     "url": "/Propositional-and-logical-connectives-Calculator/index.html"
   },
   {
-    "revision": "3d58279c1f0934cd27e8",
-    "url": "/Propositional-and-logical-connectives-Calculator/static/css/main.0fa32d84.chunk.css"
+    "revision": "d99bce66ea9d500295cc",
+    "url": "/Propositional-and-logical-connectives-Calculator/static/css/main.fe8abc30.chunk.css"
   },
   {
     "revision": "764f92220c60baeecf76",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Propositional-and-logical-connectives-Calculator/static/js/2.648935bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d58279c1f0934cd27e8",
-    "url": "/Propositional-and-logical-connectives-Calculator/static/js/main.75d0befd.chunk.js"
+    "revision": "d99bce66ea9d500295cc",
+    "url": "/Propositional-and-logical-connectives-Calculator/static/js/main.b4105906.chunk.js"
   },
   {
     "revision": "39693c9ff86584b9da32",
