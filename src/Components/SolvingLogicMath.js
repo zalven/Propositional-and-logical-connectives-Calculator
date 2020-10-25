@@ -228,7 +228,7 @@ class Node{
             if(parenthesis == 0 &&  val == ')') zeroes++;
             if(zeroes >=2) return false;
         }
-        return zeroes == 1 && value.slice(-1) == ')';
+        return zeroes == 1 && value.slice(-1) == ')' && value.charAt(0) == '(';
     }
     // val == '¬' || 
     isOperator(val){
@@ -275,6 +275,11 @@ class Node{
         return this._list_eval(this.root)
     }
 
+       // Test Cases 
+    //  o+(c-(a+b)-d)+(m+(i+(e+f)+(g+h)+j)+(k+L)+n)+p
+    // (p→(a∧r))∧(¬p→(¬a∧¬r))
+    // (p→(¬a∧r))∧(¬¬¬¬¬¬p→(¬a∧¬r))⊕¬p→(¬a∧¬r)
+    // (p∧¬q)∨¬p
     _list_eval(root){
         if(root != null){
             if(root.left == null && root.right == null) 
