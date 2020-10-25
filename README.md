@@ -5,9 +5,9 @@ Guys may ginawa akung truth table calculator . If you want to use it . just visi
 2.) install node js 
 3.) open the cloned foler in the command line and type npm install 
 4.) type npm start
-5
 
-This project was bootstrapped with Create React App.
+
+#This project was bootstrapped with Create React App.
 
 Available Scripts
 In the project directory, you can run:
