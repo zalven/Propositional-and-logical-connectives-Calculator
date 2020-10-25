@@ -309,7 +309,8 @@ class Node{
             if(root.left == null && root.right == null) return root.value;
             let right = this._eval( root .right)
             let left = this._eval(root.left);
-            // console.log(left+" - "+root.value+" - "+right);
+            console.log("------------------------------")
+            console.log(left+" - "+root.value+" - "+right);
             if(root.value === '∧')
                 return left == 1 && right == 1?1:0;
             if(root.value === '∨')
