@@ -2,6 +2,18 @@
 
 Guys may ginawa akung truth table calculator . If you want to use it . just visit the link .https://zalven.github.io/Propositional-and-logical-connectives-Calculator/ Meron din akung iba pang projects . follow nyo lng ako sa github https://github.com/zalven and sa twitter https://twitter.com/dayaoski and if you want the source code . free lng naman .check nyo lng sa website meron doon ,meron din sa aking github. Just let me know guys if may bug kayung nakita or mali yung sagot. Arigathanksssss :D
 
+test case : 
+        (¬(¬p∧q)∨¬(p∧¬q))
+        (p→(a∧r))∧(¬p→(¬a∧¬r))
+        ¬p∧r∨z→¬x
+        (p→(¬a∧r))∧(¬¬¬¬¬¬p→(¬a∧¬r))⊕¬p→(¬a∧¬r)
+        (p∧¬q)∨¬p
+        (p>(~a&r))&(~~~~~~p>(~a&~r))
+
+
+
+
+
 1.) clone it using git 2.) install node js 3.) open the cloned foler in the command line and type npm install 4.) type npm start
 
 #This project was bootstrapped with Create React App.
